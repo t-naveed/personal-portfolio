@@ -1,0 +1,453 @@
+/*  DEVELOPER: Tasin Naveed, IS117-001, Fall 2021 */
+body{
+  font-family: roboto sans-serif;
+
+}
+.navbar-brand{
+  letter-spacing: .2rem;
+}
+.bg-nav{
+  background-color: #017389;
+}
+a.nav-link{
+  margin-left: 30px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: ;
+  font-size: 12px;
+}
+.items{
+  margin-left: 50px;
+}
+
+.jumbotron{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  letter-spacing: .2rem;
+  color: white;
+
+}
+.stack {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    animation: flicker 1.5s infinite alternate;
+}
+.card{
+  float: left;
+  margin: 30px;
+  opacity: 0.5;
+  background-color: #02687e;
+  height: 370px;
+}
+.card:hover{
+  opacity: 0.7;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid green;
+  border-top: 2px solid green;
+  background-color: black;
+  box-shadow: 2px 2px 2px green;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+.card img{
+  height:150px;
+  width: 150px;
+  margin: auto;
+}
+.services{
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  letter-spacing: .2rem
+}
+
+.about{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100%;
+}
+.about img{
+  float:right;
+  height: 600px;
+  width: auto;
+  margin-left: 70px;
+  margin-top: 100px;
+  border-radius: 25px;
+  border: 1px white solid;
+
+}
+
+.about-title{
+
+}
+.first-h2{
+  margin-left: 50px;
+  letter-spacing: .2rem;
+  color: white;
+}
+.second-h2{
+  margin-left: 150px;
+  letter-spacing: .2rem;
+  color: white;
+}
+.third-h2{
+  margin-left: 320px;
+  letter-spacing: .2rem;
+  color: white;
+}
+.cvbtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: .2rem;
+}
+.btn-success{
+  background-color:#020c0d;
+  letter-spacing: .2rem;
+  margin-right: 60px;
+
+}
+.btn-success:hover{
+  letter-spacing: .2rem;
+  background-color: white;
+  color:black;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    animation: flicker 1.5s infinite alternate;
+}
+.btn-danger{
+  background-color:#020c0d;
+  letter-spacing: .2rem;
+  border: solid 1px blue;
+}
+.btn-danger:hover{
+  letter-spacing: .2rem;
+  background-color: white;
+  color:black;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    animation: flicker 1.5s infinite alternate;
+}
+.article{
+  padding: 20px;
+  letter-spacing: .2rem;
+  color: white;
+  font-size: 16px;
+  width: 700px;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+}
+.certificates{
+  padding: 40px;
+  border: ;
+  color: white;
+}
+.certificates img{
+  height: 700px;
+  width: 400px;
+}
+.contact-form{
+  padding: 60px;
+  border: 1px white solid;
+  margin-top: 80px;
+  width: 800px;
+  color:white;
+  letter-spacing: .2rem;
+}
+input.form-control{
+  border: 2px blue solid;
+  box-shadow: 2px 2px 2px blue;
+}
+textarea{
+  border: 1px blue solid;
+  box-shadow:  2px 2px 2px blue;
+}
+.p-3{
+  letter-spacing: .2rem;
+}
+.skills{
+  margin-top: 100px;
+}
+.progress{
+  width: 80%;
+}
+h5{
+  letter-spacing: .2rem;
+  color: white;
+}
+.progress p{
+  letter-spacing: .2rem;
+  color: black;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.badges{
+  margin-top: 30px;
+  margin-bottom: 110px;
+}
+.badges img{
+  width: auto;
+  opacity: 0.5;
+}
+.rank{
+  padding-left: 20px;
+}
+.carousel-caption.d-none.d-md-block {
+  color: black;
+
+}
+.carousel-indicators [data-bs-target] {
+  background-color: green;
+}
+.carousel-control-next-icon{
+  background-color: green;
+}
+.carousel-control-prev-icon{
+  background-color: green;
+}
+img.d-block.w-100{
+  height: 650px;
+  width: 600px;
+}
+
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  color: #fff ;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.fb:hover {
+  color: #385898;
+}
+.insta:hover {
+  color: #cd486b;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.git:hover {
+  color: white ;
+}
+.youtube:hover {
+  color: red;
+}
+
+
+
+
+
+@media only screen and (max-width:751px) {
+.about h2{
+  width: auto;
+}
+.article{
+    width: auto;
+ }
+ .about-image{
+   width: auto;
+   margin-right: 80px;
+   margin-top: -50px;
+ }
+.p-3{
+  width: 70px;
+  height: 170px;
+}
+.contact-form{
+  margin-bottom: 100px;
+}
+}
+@media only screen and (max-width:575px) {
+.contact-form{
+  width: auto;
+}
+
+.p-3{
+  width: 70px;
+  height: 170px;
+}
+}
+@media only screen and (max-width:1182px) {
+  .card.last-card{
+    margin-left: 160px;
+  }
+  .p-3{
+    width: 180px;
+    height: 120px;
+  }
+  .link1{
+    padding: 5px;
+  }
+  .services{
+    margin-bottom: 140px;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .card.last-card{
+    margin-left: 30px;
+  }
+
+
+}
+@media only screen and (min-width:400px) and (max-width: 766px) {
+  .card.last-card {
+      margin-left: 80px;
+  }
+
+}
+@media only screen and (max-width:766px) {
+  .card{
+  width: auto;
+  margin-left: 80px;
+  }
+
+}
+
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
+
+
+
+
+
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: invisible; }
+}
+@if $enable-transitions {
+  @keyframes progress-bar-stripes {
+    0% { background-position-x: $progress-height; }
+  }
+}
+
+
+
+
+
+
+/* Glitch effect */
+.stack span {
+  font-weight: bold;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  font-size: 4rem;
+  --stack-height: calc(100% / var(--stacks) - 1px);
+  --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+  --clip-top: calc(var(--stack-height) * var(--index));
+  --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+  clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+  animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+}
+
+.stack span:nth-child(odd) { --glitch-translate: 8px; }
+.stack span:nth-child(even) { --glitch-translate: -8px; }
+
+@keyframes stack {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+  };
+  60% {
+    opacity: 0.5;
+    transform: translateX(50%);
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    transform: translate(var(--glitch-translate));
+  }
+  2% {
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  4%, 100% {  text-shadow: none; transform: none; }
+}
