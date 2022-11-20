@@ -12,8 +12,4 @@ This was final project for Intro to WebDev(IS117) class of NJIT Spring 2021. Bui
 
 ![Screenshot](/screenshot/ss5.PNG)
 
-![Screenshot](/screenshot/ss6.PNG)
 
-![Screenshot](/screenshot/ss7.PNG)
-
-![Screenshot](/screenshot/ss8.PNG)
